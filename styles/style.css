@@ -853,9 +853,10 @@ footer > p {
 @media only screen and (max-width: 430px) {
 /*MOVIL*/
 header {
+  display: flex;
   background-color: #863131;
   display: flex;
-  text-align: left;
+  text-align: center;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -991,9 +992,8 @@ header {
     transition: transform 0.25s linear;
   }
 
-  .img > img:first-child, .img > img:nth-child(2) {
+  .img > img:first-child {
     display: none;
-   display: none;
   }
 
   h2{
@@ -1115,7 +1115,7 @@ header {
   }
 
   article.form{
-    width: 100%;
+    width: 80%;
   }
 
   article.form > form{
