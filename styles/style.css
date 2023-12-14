@@ -1,0 +1,1193 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #333;
+  background-color: #FFF; 
+}
+
+/*HEADER*/
+header {
+  background-color: #863131;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+
+}
+
+h1 {
+  display: flex;
+  padding: 1rem 1rem 1rem 9rem;
+  font-family: 'Marcellus SC', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-items: left;
+  justify-content: left;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: transform 0.25s linear;
+}
+
+/*NAV*/
+nav {
+  background-color: #863131;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 0.8rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 2.5rem;
+}
+
+li, a {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  align-items: right;
+}
+
+li:hover, a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 0.15rem; 
+  text-underline-offset: 8px; 
+  transition: text-decoration-color 0.4s linear;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*BUTTONS*/
+.btnDate > a.btnDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: #242424;
+  border: 0.15rem solid white;
+  border-radius:2px;
+  padding: 0.35rem;
+  margin-right: 9rem;
+  margin-left: 2.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.btnDate > a.btnDate:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #ffffff;
+  border: 0.15rem solid #242424;
+}
+
+a.btnDate {
+  text-decoration: none;
+}
+
+/*COVER*/
+.cover {
+  height: 26rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../src/img/mainLawyer.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white;
+  text-align: center;
+}
+
+.spaces {
+  padding: 1rem 0rem;
+}
+
+/* MAIN */
+h2 {
+  font-family: 'Marcellus SC', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #863131;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/*SECTION*/
+.section1 {
+  margin-bottom: 2rem;
+}
+
+.section2, .section3 {
+  margin-bottom: 4.5rem;
+}
+
+h3 {
+  font-family: 'Marcellus SC', serif;
+  font-weight: 50;
+  letter-spacing: 0.15em;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  letter-spacing: 20%;
+  font-size: 1.5rem;
+  padding-left: 26%;
+  padding-right: 8%;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+h3:hover {
+  font-family: 'Marcellus SC', serif;
+  cursor: pointer;
+  color: #863131;
+  transition: color 0.4s linear;
+  text-decoration: double black;
+}
+
+.img_persona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 13%;
+  margin: 0.3rem 0 1rem;
+  gap: 6.5%;
+}
+
+.img_persona > img {
+  width: 70%;
+  object-fit: fill;
+  border-radius: 4px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0 1rem;
+  gap: 12%;
+}
+
+.img > img {
+  width: 20%;
+  aspect-ratio: 2/1.5;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.img > img:hover {
+  cursor: pointer;
+  width: 20%;
+  aspect-ratio: 2/1.5;
+  object-fit: cover;
+  border-radius: 7px;
+  transform: scale(1.05);
+  transition: transform 0.25s linear;
+}
+
+.txts_persona {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 5rem;
+  gap: 9%;
+}
+
+.txt_persona {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.txts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin: 1rem 5rem;
+  gap: 3%;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 5rem 0;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txts_opn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin: 3rem 5rem;
+  gap: 4%;
+}
+
+.txt_opn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.txt_opn:hover {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color:mistyrose;
+  border-radius: 3px;
+}
+
+.txt_opn:active {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color:bisque;
+  border-radius: 3px;
+}
+
+.rating > img{
+  width: 42%;
+}
+
+.person {
+  color: #863131;
+}
+
+.img_opn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_opn > img {
+  width: 30%;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 5rem;
+  margin-bottom: 4rem;
+}
+
+.video > video {
+  border-radius: 3px;
+}
+
+/*BUTTON*/
+.info-button {
+  display: flex;
+  font-size: 1rem;
+  width: 6rem; 
+  margin: auto;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 3vh;
+}
+
+.info-button:hover {
+  color: black;
+  background-color: #ffffff; 
+}
+
+.info-button:focus {
+  outline: none;
+  border: 0.1rem solid rgb(238, 96, 96);
+}
+
+/*OPINIONS*/
+.opinions {
+  display: flex;
+  margin: 0 1.5rem ;
+}
+
+.opinions p {
+  display: inline-flex;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+}
+
+/*FORM*/
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: #863131;
+  color: white;
+  font-weight: 500;
+  padding: 2rem 0rem 1rem 0;
+  gap: 15rem;
+}
+
+.form > p {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  margin: 0.75rem 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 10%;
+  line-height: 2.7rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-right: 10%;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  padding: .4rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid black;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+button.send {
+  cursor: pointer;
+  width: 6rem;
+  justify-content: center;
+  text-align: center;
+  height: 2.25rem;
+}
+
+.form input:focus,
+.form button:focus {
+  outline: none;
+  border: 0.1rem solid rgb(238, 96, 96);
+}
+
+.form button:hover {
+  color: white;
+  background-color: black;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 2.5rem 0;
+  gap: 3rem;  
+}
+
+footer > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 18%;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  word-spacing: 0.25rem;
+  line-height: 1.75rem;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.map > iframe {
+  border-radius: 3px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  gap: 1rem;
+}
+
+.redes > a {
+  padding-top: 1rem;
+  aspect-ratio: 1/1;
+  width: 40%;
+  height: auto 0;
+}
+
+.redes > a:hover {
+  cursor: pointer;
+  filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
+  transition: background-color 0.4s linear;
+}
+
+/*whatsapp*/
+.whatsapp-icon {
+  position: fixed;
+  opacity: 79%;
+  width: 3.3%;
+  bottom: 5%; 
+  right: 2.5%; 
+}
+
+.whatsapp-icon:hover {
+  opacity: 100%;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
+
+/*TABLET*/
+@media only screen and (max-width: 1024px) {
+
+  header {
+    background-color: #863131;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+
+  h1 {
+    display: flex;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  h1:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s linear;
+  }
+  
+  .cover{
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../src/img/mainLawyer.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+  }
+  
+  /*NAV*/
+  nav{
+    display: hidden;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    padding: 10px;
+  }
+  
+  .dropdown a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+ 
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  h3 {
+      font-family: 'Marcellus SC', serif;
+      font-weight: 50;
+      letter-spacing: 0.15em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 20%;
+      font-size: 2.5rem;
+      padding-top: 4rem;
+      padding-left: 9%;
+      padding-right: 4%;
+      color: #333;
+  }
+
+  .img_persona {
+    display: none;
+  }
+
+  .img_persona > img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+  } 
+  
+  .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0 1rem;
+    gap: 2%;
+  }
+
+  .img > img {
+    width: 45%;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .img > img:hover {
+    cursor: pointer;
+    width: 48%;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+    border-radius: 7px;
+    transform: scale(1.05);
+    transition: transform 0.25s linear;
+  }
+
+  .img > img:last-child {
+    display: none;
+   display: none;
+  }
+
+  h2{
+    padding-top: 1rem;
+    font-size: 2.3rem;
+  }
+
+  .txts_persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 7rem;
+    gap: 5%;
+  }
+ 
+
+  .txts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 1rem 5rem;
+    gap: 5%;
+  }
+
+  .txt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 5rem 0;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txts_opn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 7rem;
+  }
+
+  .txt_opn {
+    display: flex;
+    border: azure solid 0.15rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 3px;
+  }
+
+  .txt_opn:hover {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color:mistyrose;
+    border-radius: 3px;
+  }
+
+  .img_opn > img {
+    width: 35%;
+  }
+
+  .person {
+    padding: 0;
+    margin: 0;
+  }
+
+  .rating > img{
+    width: 20%;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    opacity: 79%;
+    width: 7%;
+    bottom: 5%; 
+    right: 2.5%; 
+  }
+
+  .whatsapp-icon:hover {
+    opacity: 100%;
+    transition: all 0.25s linear;
+    cursor: pointer;
+  }
+  
+  .form > p{
+    display: none;
+  }
+
+  form {
+    padding: 0;
+    width: 100%;
+  }
+
+  label{
+    font-size:  2rem;
+  } 
+
+  input{
+    font-size:  2rem;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 3rem;  
+  }
+
+  button.send{
+    font-size:  1.75rem;
+    width: 11rem;
+    height: 4rem;
+  }
+
+  .contacto{   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem 0;  
+  }
+  .contacto > p{
+    font-size:  1.75rem;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    gap: 1rem;
+  }
+
+  .map{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem 0;
+  }
+
+  .map > iframe {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    width: 130%;
+    margin-bottom: 8rem;
+  }
+}
+  
+@media only screen and (max-width: 430px) {
+/*MOVIL*/
+header {
+  background-color: #863131;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+  h1 {
+    display: flex;
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+  }
+  h1:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s linear;
+  }
+  
+  .cover{
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../src/img/mainLawyer.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    text-align: center;
+  }
+  
+  /*NAV*/
+  nav{
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    padding: 10px;
+  }
+  
+  .dropdown a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  article.txt_personas{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  article.txt_persona{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .section1 {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .img_persona {
+    display: none;
+  }
+
+  h3 {
+      font-family: 'Marcellus SC', serif;
+      font-weight: 50;
+      letter-spacing: 0.15em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 20%;
+      font-size: 1.75rem;
+      color: #333;
+  }
+
+  .img_persona {
+    display: none;
+  }
+
+  .img_persona > img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+  } 
+  
+  .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0 1rem;
+    gap: 2%;
+  }
+
+  .img > img {
+    width: 80%;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .img > img:hover {
+    cursor: pointer;
+    width: 30%;
+    aspect-ratio: 2/1.5;
+    object-fit: cover;
+    border-radius: 7px;
+    transform: scale(1.05);
+    transition: transform 0.25s linear;
+  }
+
+  .img > img:first-child, .img > img:nth-child(2) {
+    display: none;
+   display: none;
+  }
+
+  h2{
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .txts_persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 7rem;
+    gap: 5%;
+  }
+ 
+
+  .txts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 1rem 5rem;
+    gap: 5%;
+  }
+
+  .txt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 5rem 0;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txts_opn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 7rem;
+  }
+
+  .txt_opn {
+    display: flex;
+    border: azure solid 0.15rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 3px;
+  }
+
+  .txt_opn:hover {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color:mistyrose;
+    border-radius: 3px;
+  }
+
+  .img_opn > img {
+    width: 35%;
+  }
+
+  .person {
+    padding: 0;
+    margin: 0;
+  }
+
+  .rating > img{
+    width: 20%;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    opacity: 79%;
+    width: 7%;
+    bottom: 5%; 
+    right: 2.5%; 
+  }
+
+  .whatsapp-icon:hover {
+    opacity: 100%;
+    transition: all 0.25s linear;
+    cursor: pointer;
+  } 
+
+  .form > p{
+    display: none;
+  }
+
+  label{
+    font-size:  1.25rem;
+  } 
+
+  input{
+    font-size:  1.5rem;
+  }
+
+  input#fechaNacimiento{
+    font-size:  1.25rem;
+  }
+
+  article.form{
+    width: 100%;
+  }
+
+  article.form > form{
+    padding: 0;
+  }
+
+  article.txt{
+    padding: 0;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 3rem;  
+  }
+
+  button.send{
+    font-size:  1.25rem;
+    width: 9rem;
+    height: 3rem;
+  }
+
+  .contacto{   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem 0;  
+  }
+  .contacto > p{
+    font-size:  1.25rem;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    gap: 1rem;
+  }
+
+  .map{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem 0;
+  }
+
+  .map > iframe {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    width: 150%;
+    margin-bottom: 8rem;
+  }
+  .video {
+   display: none;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    opacity: 79%;
+    width: 10%;
+    bottom: 5%; 
+    right: 3.5%; 
+  }
+
+}
+
